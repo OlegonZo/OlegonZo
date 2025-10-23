@@ -1,7 +1,7 @@
 # 👋 Hey, I'm Oleggonzo
 Ethereum Builder | MegaETH Contributor | Real-time L2 Enthusiast
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Oleggonzo&show_icons=true&theme=radical&hide_border=true)
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Oleggonzo&show_icons=true&theme=radical)
 
 ## 🛠️ MegaETH Ecosystem Contributions
 - Active in Testnet 🧪
