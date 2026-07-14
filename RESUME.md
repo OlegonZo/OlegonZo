@@ -2,7 +2,7 @@
 
 **Crypto Researcher · On-chain Analyst · Python Automation Builder**
 
-Vilnius, Lithuania · Remote worldwide  
+Fully remote · Open to travel  
 Email: [gulaevoleg191@gmail.com](mailto:gulaevoleg191@gmail.com) · Telegram: [@Olejo29](https://t.me/Olejo29)  
 [GitHub](https://github.com/OlegonZo) · [LinkedIn](https://www.linkedin.com/in/oleg-gulyaev-939186238/)
 
@@ -57,6 +57,8 @@ Engineering degree in Land Cadastre
 ## Target roles
 
 Crypto Research Analyst · On-chain/Data Analyst · Junior Python Automation Developer · Web3 Product/Operations Analyst · Research Internship
+
+**Employment:** Full-time or part-time · 100% remote
 
 ## Portfolio
 
