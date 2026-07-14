@@ -2,7 +2,7 @@
 
 **Crypto Researcher & AI-Assisted Automation Builder**
 
-Vilnius, Lithuania · Open to remote opportunities worldwide
+Fully remote · Open to full-time and part-time opportunities · Open to travel
 
 I have 4+ years of hands-on experience across DeFi, token launches, airdrop ecosystems, on-chain research, and crypto market structure. I turn research questions into practical Python prototypes, monitoring tools, and reproducible measurement workflows.
 
@@ -59,6 +59,8 @@ I am open to roles such as:
 - Junior Python Automation Developer
 - Web3 Product or Operations Analyst
 - Research-oriented internship or project role
+
+**Work format:** 100% remote · Full-time or part-time · Open to travel
 
 ## Contact
 
