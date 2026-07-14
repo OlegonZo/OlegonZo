@@ -41,6 +41,11 @@ Independent crypto researcher and automation builder with 4+ years of hands-on e
 - Researched Solana prediction markets and a Sui Web3 gaming launch.
 - Communicated uncertainty explicitly and separated facts, assumptions, catalysts, and risks.
 
+## Education
+
+**Saratov State Agrarian University**  
+Engineering degree in Land Cadastre
+
 ## Technical skills
 
 **Python:** requests, REST APIs, JSON-RPC, Decimal, dataclasses, SQLite, JSONL logging  
