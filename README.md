@@ -19,7 +19,7 @@ I am based in Russia and open to **100% remote full-time or part-time work**. I 
 | Project | What it demonstrates |
 |---|---|
 | [Exchange Monitoring Lab](https://github.com/OlegonZo/exchange-monitoring-lab) | A sanitized, paper-only MEXC/Hyperliquid research architecture: exchange normalization, market-regime checks, deterministic exits, tests, and transparent experiment notes. |
-| [Memecoin Analyzer](https://github.com/OlegonZo/Memecoin-analyzer-) | Explainable token and smart-wallet signal scoring, risk gates, synthetic examples, and tests. Production calibration and credentials remain private. |
+| [Memecoin Analyzer](https://github.com/OlegonZo/solana-memecoin-analyzer) | Explainable token and smart-wallet signal scoring, risk gates, synthetic examples, and tests. Production calibration and credentials remain private. |
 | [Polymarket BTC Research](https://github.com/OlegonZo/polymarket-btc-bot) | A 1,485-row research dataset, resolver QA, backtesting, and a documented negative result instead of an overstated edge. |
 | [Whale Tracker](https://github.com/OlegonZo/Whale-tracker) | On-chain wallet activity monitoring and alert-oriented data processing. |
 | [Crypto Research](https://github.com/OlegonZo/crypto-research) | Structured market notes, hypotheses, and research artifacts. |
