@@ -79,7 +79,7 @@ AI Automation Specialist · Crypto Research Analyst · On-chain/Data Analyst · 
 
 - [Exchange Monitoring Lab](https://github.com/OlegonZo/exchange-monitoring-lab)
 - [Polymarket BTC Research](https://github.com/OlegonZo/polymarket-btc-bot)
-- [Memecoin Signal Analyzer](https://github.com/OlegonZo/Memecoin-analyzer-)
+- [Memecoin Signal Analyzer](https://github.com/OlegonZo/solana-memecoin-analyzer)
 - [Whale Tracker](https://github.com/OlegonZo/Whale-tracker)
 - [Crypto Research](https://github.com/OlegonZo/crypto-research)
 
