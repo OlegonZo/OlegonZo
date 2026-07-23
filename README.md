@@ -14,6 +14,17 @@ I am based in Russia and open to **100% remote full-time or part-time work**. I 
 - reproducible crypto research with honest result reporting;
 - fast prototypes built with AI tools, then reviewed, tested, and documented.
 
+## Current research status
+
+_Last verified: 2026-07-23. These are dated paper/shadow research states, not live-capital or profitability claims._
+
+| System | Verified status |
+|---|---|
+| [MEXC Move15 forward cohort](https://github.com/OlegonZo/exchange-monitoring-lab/blob/main/docs/OPERATIONS_UPDATE_2026-07.md) | Running under a supervised paper/shadow stack: 25/60 source signals, 24 closed outcomes and 1 open outcome. Final decision: `NOT_EVALUATED`; automatic tuning and live capital are disabled. |
+| Hyperliquid guarded-short v2 | Paused and incomplete at 10/30 closed observations. The interim paper result is negative; the stopping rule was not reached, so there is no final conclusion. |
+| Polymarket reward-shadow v4 | A bounded six-hour run completed on 2026-07-18 across 5 markets with 2 round-trip shadow fills. The sample is insufficient for a profitability claim. |
+| Private Solana monitoring | Wallet, token and transaction-monitoring prototypes were operated with persistent state and alerts. Continuous runs are currently paused after RPC rate-limit pressure; addresses, credentials and raw logs remain private. |
+
 ## Selected work
 
 | Project | What it demonstrates |
