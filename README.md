@@ -1,55 +1,59 @@
 # Oleg Gulyaev
 
-**Crypto researcher · AI-assisted Python automation builder**
+**Python automation & research tooling**
 
-I turn repetitive crypto research and monitoring tasks into small, testable tools. My work combines more than four years of hands-on crypto experience with Python, APIs, SQLite, Telegram alerts, and an AI-assisted development workflow.
+I turn manual and repetitive processes into tested, documented, reproducible tools. My current domain focus is crypto market data, but the engineering work is broader: APIs, data pipelines, AI-assisted workflows, dashboards, alerts, and operational tooling.
 
-I am based in Russia and open to **100% remote full-time or part-time work**. I can travel when required.
+Based in Russia. Open to **100% remote full-time or part-time roles** in Python automation, AI integrations, data tooling, and Web3 analytics.
+
+[Resume](RESUME.md) · [LinkedIn](https://www.linkedin.com/in/oleg-gulyaev-939186238/) · [Telegram](https://t.me/Olejo29) · [Email](mailto:gulaevoleg191@gmail.com)
 
 ## What I build
 
-- on-chain wallet and token monitoring;
-- exchange market scanners and paper-trading research;
-- Telegram alerts and operational automations;
-- reproducible crypto research with honest result reporting;
-- fast prototypes built with AI tools, then reviewed, tested, and documented.
-
-## Current research status
-
-_Last verified: 2026-07-23. These are dated paper/shadow research states, not live-capital or profitability claims._
-
-| System | Verified status |
-|---|---|
-| [MEXC Move15 forward cohort](https://github.com/OlegonZo/exchange-monitoring-lab/blob/main/docs/OPERATIONS_UPDATE_2026-07.md) | Running under a supervised paper/shadow stack: 25/60 source signals, 24 closed outcomes and 1 open outcome. Final decision: `NOT_EVALUATED`; automatic tuning and live capital are disabled. |
-| Hyperliquid guarded-short v2 | Paused and incomplete at 10/30 closed observations. The interim paper result is negative; the stopping rule was not reached, so there is no final conclusion. |
-| Polymarket reward-shadow v4 | A bounded six-hour run completed on 2026-07-18 across 5 markets with 2 round-trip shadow fills. The sample is insufficient for a profitability claim. |
-| Private Solana monitoring | Wallet, token and transaction-monitoring prototypes were operated with persistent state and alerts. Continuous runs are currently paused after RPC rate-limit pressure; addresses, credentials and raw logs remain private. |
+- Python automation with explicit inputs, outputs, validation, and failure modes
+- REST/API integrations, data normalization, SQLite storage, and Telegram-ready alerts
+- FastAPI and n8n workflows with audit logs and human-review checkpoints
+- operator dashboards, health monitoring, and incident runbooks
+- reproducible research with tests, CI, synthetic fixtures, and documented limitations
 
 ## Selected work
 
-| Project | What it demonstrates |
+| Project | Engineering evidence |
 |---|---|
-| [Exchange Monitoring Lab](https://github.com/OlegonZo/exchange-monitoring-lab) | A sanitized, paper-only MEXC/Hyperliquid research architecture: exchange normalization, market-regime checks, deterministic exits, tests, and transparent experiment notes. |
-| [Memecoin Analyzer](https://github.com/OlegonZo/solana-memecoin-analyzer) | Explainable token and smart-wallet signal scoring, risk gates, synthetic examples, and tests. Production calibration and credentials remain private. |
-| [Polymarket BTC Research](https://github.com/OlegonZo/polymarket-btc-bot) | A 1,485-row research dataset, resolver QA, backtesting, and a documented negative result instead of an overstated edge. |
-| [Whale Tracker](https://github.com/OlegonZo/Whale-tracker) | On-chain wallet activity monitoring and alert-oriented data processing. |
-| [Crypto Research](https://github.com/OlegonZo/crypto-research) | Structured market notes, hypotheses, and research artifacts. |
+| [Exchange Monitoring Lab](https://github.com/OlegonZo/exchange-monitoring-lab) | Paper-only Python package for normalizing MEXC and Hyperliquid data, evaluating market regime, and explaining deterministic exits. Typed models, `Decimal` arithmetic, synthetic fixtures, tests, and CI. |
+| [AI Document Review Pipeline](https://github.com/OlegonZo/ai-document-review-pipeline) | FastAPI webhook, explicit business rules, SQLite review queue, immutable audit trail, n8n workflow, and unit tests. Ambiguous cases are routed to a human instead of being silently accepted. |
+| [BotOps Control Center](https://github.com/OlegonZo/botops-control-center) | Deployed TypeScript/React operations dashboard with typed health endpoints, runbooks, CI, demo telemetry, and an optional server-side OpenAI Responses API integration. |
+| [Solana Memecoin Analyzer](https://github.com/OlegonZo/solana-memecoin-analyzer) | Explainable scoring pipeline with validated models, dust filtering, wallet weighting, risk gates, deterministic tests, and synthetic data only. |
+| [Polymarket BTC Research](https://github.com/OlegonZo/polymarket-btc-bot) | Resolver QA, shadow logging, filter attribution, and analysis of 1,485 resolved observations across 181 markets. The measured hypothesis was negative and documented as not deployable. |
+| [AI Creator Scout](https://github.com/OlegonZo/ld-latte-ai-test) | Auditable Python prototype for cleaning a creator list, transparent scoring, risk flags, and mandatory human review before any outreach. No automatic messaging. |
 
 ## How I work with AI
 
-I use Codex and other AI tools as an engineering accelerator: I define the task and acceptance criteria, build an initial version, inspect the output, run deterministic tests, validate on paper or synthetic data, and document limitations. I do not publish credentials, private wallet lists, raw logs, or live-order access.
+I use Codex and other AI tools as engineering accelerators. The workflow remains specification-led:
 
-This is what “vibe coding” means in my portfolio: **fast AI-assisted iteration with human verification and clear evidence**.
+1. define the task, boundaries, and acceptance criteria;
+2. build a small working slice;
+3. inspect logic and edge cases;
+4. run deterministic tests on synthetic or paper data;
+5. document limitations and what the evidence does not prove.
+
+For me, “vibe coding” means fast AI-assisted iteration with human verification—not unreviewed generated code.
+
+## Research integrity
+
+A working monitoring system is not proof of a profitable strategy. My public market projects are sanitized, paper-only research artifacts. They do not place orders, use live capital, expose credentials, or claim validated profitability.
+
+Dated cohort details live in the individual repositories rather than in this profile, so reviewers can see the methodology and the historical context together.
 
 ## Tools
 
-`Python` · `REST APIs` · `JSON` · `SQLite` · `Telegram Bot API` · `Git/GitHub` · `pytest/unittest` · `on-chain data` · `paper trading` · `AI-assisted development`
+`Python` · `FastAPI` · `REST APIs` · `JSON/JSON-RPC` · `SQLite` · `n8n` · `Telegram Bot API` · `TypeScript` · `React` · `OpenAI Responses API` · `Git/GitHub` · `GitHub Actions` · `pytest/unittest`
 
 ## Background
 
 - Higher education — Saratov State Agrarian University, Engineer in Land Cadastre.
 - English — technical reading and documentation with translation tools; actively improving spoken and written English.
-- Interested roles — AI automation, crypto research, operations automation, junior Python, and rapid product prototyping.
+- Interested roles — Python automation, AI integrations, data tooling, Web3 analytics, and rapid product prototyping.
 
 ## Contact
 
@@ -61,5 +65,4 @@ This is what “vibe coding” means in my portfolio: **fast AI-assisted iterati
 
 ### Коротко по-русски
 
-Я занимаюсь крипторынком более четырёх лет и создаю с помощью Python и AI-инструментов системы мониторинга, исследовательские прототипы и автоматизации. Ищу удалённую работу на полный или неполный день в направлениях AI-автоматизации, криптоаналитики, Python и быстрого прототипирования.
-
+Создаю на Python и с помощью AI-инструментов автоматизации, API-интеграции, системы мониторинга, исследовательские пайплайны и интерфейсы для операторов. Делаю упор на проверяемую логику, тесты, документацию и честные границы результата. Ищу полностью удалённую работу в Python, AI-автоматизации, Web3-аналитике и быстром прототипировании.
