@@ -1,6 +1,6 @@
 # Oleg Gulyaev
 
-**Crypto Researcher · AI-Assisted Python Automation Builder · On-chain Analyst**
+**Python Automation & AI Integration Builder · Web3 Data Research**
 
 Based in Russia · Russian citizenship · 100% remote · Open to travel  
 Full-time or part-time  
@@ -9,57 +9,75 @@ Email: [gulaevoleg191@gmail.com](mailto:gulaevoleg191@gmail.com) · Telegram: [@
 
 ## Professional summary
 
-Independent crypto researcher and automation builder with more than four years of hands-on experience in DeFi, token launches, airdrop ecosystems, on-chain analysis, and market research. I use Python and AI-assisted development to turn research questions into monitoring tools, data pipelines, Telegram automations, and reproducible experiments.
+I build tested, documented tools that turn repetitive work and research questions into reproducible workflows. My portfolio covers Python automation, REST/API integrations, FastAPI services, SQLite data pipelines, n8n workflows, operational dashboards, Telegram-ready alerts, and AI-assisted review systems.
 
-My strengths are crypto-domain reasoning, rapid prototyping, transparent result reporting, and learning unfamiliar systems quickly. I use AI tools to accelerate implementation, while personally checking the logic, running deterministic tests, and documenting limitations.
+My strongest domain knowledge is in crypto markets and Web3 data. I also build domain-neutral automation samples that demonstrate human-review gates, audit trails, typed boundaries, testing, CI, and safe handling of credentials. AI tools accelerate implementation, while I personally define acceptance criteria, inspect logic, run deterministic checks, and document limitations.
 
-## Project experience
+## Selected project experience
 
-### Cross-exchange monitoring and paper research
+### AI document review pipeline
 
-- Built a unified research workflow for MEXC and Hyperliquid market snapshots.
-- Normalized exchange-specific fields into a common model for regime checks and alerting.
-- Implemented deterministic paper-position exits, risk guards, and testable state transitions.
-- Pre-registered paper experiments and reported inconclusive results when confidence intervals crossed zero.
-- Kept live-order access, credentials, private thresholds, and raw logs outside the public portfolio.
+- Built a FastAPI webhook that accepts synthetic document payloads and separates classification from business rules.
+- Routes low-confidence or invalid cases into a SQLite review queue instead of making an unchecked automated decision.
+- Records the reasons for each decision in an audit trail.
+- Includes an importable n8n workflow, OpenAPI preview, and unit tests.
+- Demo only; no claim of bank, 1C, Telegram, or production LLM integration.
 
-### Polymarket BTC 15-minute momentum research
+### Exchange monitoring lab
 
-- Built a multi-source research framework using Chainlink BTC/USD, Binance BTCUSDT, and Polymarket CLOB data.
-- Implemented entry filters, shadow logging, outcome resolution, filter attribution, and exit simulation.
-- Found and corrected a resolver defect, then recomputed the affected dataset.
+- Built typed Python boundaries around synthetic MEXC and Hyperliquid payloads.
+- Normalized exchange-specific instruments into comparison-only market snapshots.
+- Implemented deterministic paper-position exit states, transparent regime checks, and Telegram-ready formatting.
+- Added synthetic fixtures, unit tests, and GitHub Actions CI across Python 3.11–3.13.
+- The public package cannot authenticate or place orders.
+
+### BotOps Control Center
+
+- Built and deployed a responsive operations dashboard for automated research systems.
+- Separated process health, evidence quality, and strategy performance.
+- Added typed server endpoints, incident context, recovery runbooks, request limiting, and CI.
+- Integrated an optional server-side OpenAI Responses API path with deterministic no-key fallback.
+- All displayed telemetry is explicitly marked as demo data.
+
+### Solana memecoin analyzer
+
+- Designed an explainable scoring pipeline using validated data models and synthetic snapshots.
+- Added dust filtering, quality-weighted wallet aggregation, liquidity/volume gates, holder-concentration checks, and authority checks.
+- Produces transparent `WATCH` or `REJECT` explanations and never places orders.
+- Includes a dependency-free CLI, deterministic tests, and CI.
+
+### Polymarket BTC 15-minute research
+
+- Built shadow logging, outcome resolution, filter attribution, and exit-simulation tooling.
+- Found and corrected a resolver defect before recomputing the affected dataset.
 - Evaluated 1,485 resolved observations across 181 unique markets.
-- Measured a 69.43% directional win rate against a 70.38% average entry price, producing a negative 0.95% estimated edge per share.
-- Classified the strategy as not deployable and documented clustering and pseudo-replication limitations.
+- The measured entry stream was negative after market-implied price; documented the version as not deployable.
+- Reported clustering and pseudo-replication limitations instead of presenting row count as independent live trades.
 
-### Solana memecoin signal analyzer
+### AI creator scouting prototype
 
-- Designed monitoring for early smart-wallet accumulation in low-cap Solana tokens.
-- Integrated DexScreener discovery with Helius on-chain data.
-- Added dust filtering, weighted wallet scoring, liquidity/volume gates, and Telegram BUY/EXIT alerts.
-- Used SQLite for state management and iterative paper validation.
-- Published a sanitized, explainable demo with synthetic data and automated tests.
-
-### Solana whale transaction enricher
-
-- Built a Python utility on standard Solana JSON-RPC without a third-party SDK.
-- Parsed token-account owners, pre/post balances, fees, counterparties, and transaction links.
-- Added heuristic classification for transfers and likely Jupiter, Orca, and Meteora activity.
-- Produced structured output and human-readable Telegram alerts.
-
-### Independent Web3 research
-
-- Published structured analyses covering product, team, tokenomics, valuation, unlock risk, market structure, and scenarios.
-- Researched Solana prediction markets and a Sui Web3 gaming launch.
-- Separated facts, assumptions, catalysts, and risks and communicated uncertainty explicitly.
+- Built a Python tool that cleans a supplied creator list, removes irrelevant records, and ranks candidates with transparent criteria.
+- Produces evidence, unknowns, risk flags, and a mandatory human-review status.
+- Generates drafts only; it does not automatically contact creators.
+- Includes unit tests and a documented automation design.
 
 ## Technical skills
 
-**Python:** standard library, requests, REST APIs, JSON-RPC, Decimal, dataclasses, SQLite, JSON/JSONL, unittest  
-**Crypto data:** Solana RPC, Helius, DexScreener, Chainlink, Binance, Polymarket CLOB, MEXC, Hyperliquid  
-**Automation:** monitoring pipelines, Telegram Bot API, alert formatting, scheduled workflows  
-**Research:** on-chain analysis, tokenomics, DeFi, TGE/IDO analysis, market structure, experiment design  
-**Workflow:** Git, GitHub, Codex and other AI tools, test-driven verification, rapid prototyping
+**Python and data:** Python 3, FastAPI, requests, REST APIs, JSON/JSON-RPC, dataclasses, Decimal, SQLite, JSON/JSONL  
+**Automation:** n8n workflow design, Telegram Bot API formatting, webhooks, review queues, audit logs, scheduled monitoring  
+**Frontend and operations:** TypeScript, React, operational dashboards, health metadata, runbooks  
+**Web3 data:** Solana RPC, Helius, DexScreener, Chainlink, Binance, Polymarket CLOB, MEXC, Hyperliquid  
+**Quality:** unittest/pytest, synthetic fixtures, GitHub Actions CI, reproducible research, explicit safety boundaries  
+**AI-assisted workflow:** Codex and other AI tools, OpenAI Responses API, prompt and output review, human-in-the-loop design
+
+## Working approach
+
+- Start with a bounded problem and explicit acceptance criteria.
+- Prefer a small runnable slice over an unverified large system.
+- Keep credentials and private data outside public repositories.
+- Use synthetic, paper, or shadow data when live execution is unnecessary.
+- Treat negative and inconclusive results as valid evidence.
+- Separate engineering reliability from claims about business or market performance.
 
 ## Education
 
@@ -73,15 +91,15 @@ Higher education — Engineer in Land Cadastre
 
 ## Target roles
 
-AI Automation Specialist · Crypto Research Analyst · On-chain/Data Analyst · Junior Python Automation Developer · Web3 Product/Operations Analyst · Vibe Coding / Rapid Prototyping
+Python Automation Developer · AI Automation / Integration Specialist · Junior Python Developer · Web3 Data / Research Analyst · Vibe Coding / Rapid Prototyping
 
 ## Portfolio
 
 - [Exchange Monitoring Lab](https://github.com/OlegonZo/exchange-monitoring-lab)
+- [AI Document Review Pipeline](https://github.com/OlegonZo/ai-document-review-pipeline)
+- [BotOps Control Center](https://github.com/OlegonZo/botops-control-center)
+- [Solana Memecoin Analyzer](https://github.com/OlegonZo/solana-memecoin-analyzer)
 - [Polymarket BTC Research](https://github.com/OlegonZo/polymarket-btc-bot)
-- [Memecoin Signal Analyzer](https://github.com/OlegonZo/solana-memecoin-analyzer)
-- [Whale Tracker](https://github.com/OlegonZo/Whale-tracker)
-- [Crypto Research](https://github.com/OlegonZo/crypto-research)
+- [AI Creator Scout](https://github.com/OlegonZo/ld-latte-ai-test)
 
 Public repositories are sanitized. Credentials, private wallet lists, raw logs, and live-order access are intentionally excluded.
-
