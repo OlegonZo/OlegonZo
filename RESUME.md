@@ -11,7 +11,7 @@ Email: [gulaevoleg191@gmail.com](mailto:gulaevoleg191@gmail.com) · Telegram: [@
 
 I build tested, documented tools that turn repetitive work and research questions into reproducible workflows. My portfolio covers Python automation, REST/API integrations, FastAPI services, SQLite data pipelines, n8n workflows, operational dashboards, Telegram-ready alerts, and AI-assisted review systems.
 
-My strongest domain knowledge is in crypto markets and Web3 data. I also build domain-neutral automation samples that demonstrate human-review gates, audit trails, typed boundaries, testing, CI, and safe handling of credentials. AI tools accelerate implementation, while I personally define acceptance criteria, inspect logic, run deterministic checks, and document limitations.
+My strongest domain knowledge is in crypto markets and Web3 data. I have hands-on experience reading and normalizing on-chain and market data across Solana, Polygon (Polymarket CLOB), Base, and MegaETH testnets, alongside centralized-exchange APIs (MEXC, Hyperliquid, Binance) — always through synthetic, paper, or read-only data, never live order placement. I also build domain-neutral automation samples that demonstrate human-review gates, audit trails, typed boundaries, testing, CI, and safe handling of credentials. AI tools accelerate implementation, while I personally define acceptance criteria, inspect logic, run deterministic checks, and document limitations.
 
 ## Selected project experience
 
@@ -66,7 +66,7 @@ My strongest domain knowledge is in crypto markets and Web3 data. I also build d
 **Python and data:** Python 3, FastAPI, requests, REST APIs, JSON/JSON-RPC, dataclasses, Decimal, SQLite, JSON/JSONL  
 **Automation:** n8n workflow design, Telegram Bot API formatting, webhooks, review queues, audit logs, scheduled monitoring  
 **Frontend and operations:** TypeScript, React, operational dashboards, health metadata, runbooks  
-**Web3 data:** Solana RPC, Helius, DexScreener, Chainlink, Binance, Polymarket CLOB, MEXC, Hyperliquid  
+**Web3 data:** Solana RPC, Helius, DexScreener, Chainlink, Polygon, Base, MegaETH (testnet), Polymarket CLOB, Binance, MEXC, Hyperliquid  
 **Quality:** unittest/pytest, synthetic fixtures, GitHub Actions CI, reproducible research, explicit safety boundaries  
 **AI-assisted workflow:** Codex and other AI tools, OpenAI Responses API, prompt and output review, human-in-the-loop design
 

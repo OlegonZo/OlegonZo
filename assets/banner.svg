@@ -1,0 +1,40 @@
+<svg width="1200" height="260" viewBox="0 0 1200 260" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Oleg Gulyaev — Python Automation, AI Integrations, Web3 Data">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b1120"/>
+      <stop offset="55%" stop-color="#111a33"/>
+      <stop offset="100%" stop-color="#1b1240"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#22d3ee"/>
+      <stop offset="50%" stop-color="#818cf8"/>
+      <stop offset="100%" stop-color="#c084fc"/>
+    </linearGradient>
+    <pattern id="grid" width="34" height="34" patternUnits="userSpaceOnUse">
+      <path d="M 34 0 L 0 0 0 34" fill="none" stroke="#8fa3ff" stroke-opacity="0.08" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="260" fill="url(#bg)"/>
+  <rect width="1200" height="260" fill="url(#grid)"/>
+
+  <circle cx="1060" cy="60" r="120" fill="#22d3ee" opacity="0.08"/>
+  <circle cx="1140" cy="200" r="90" fill="#c084fc" opacity="0.10"/>
+
+  <rect x="0" y="0" width="8" height="260" fill="url(#accent)"/>
+
+  <text x="64" y="108" font-family="Consolas, 'JetBrains Mono', 'Courier New', monospace" font-size="46" font-weight="700" fill="#f8fafc">Oleg Gulyaev</text>
+  <text x="64" y="146" font-family="Consolas, 'JetBrains Mono', 'Courier New', monospace" font-size="21" fill="#9fb3ff">Python Automation &amp; AI Integrations · Web3 Data Research</text>
+
+  <text x="64" y="196" font-family="Consolas, 'JetBrains Mono', 'Courier New', monospace" font-size="17" fill="#38bdf8">$</text>
+  <text x="84" y="196" font-family="Consolas, 'JetBrains Mono', 'Courier New', monospace" font-size="17" fill="#cbd5e1">open_to_remote --roles=web3,ai-automation,vibe-coding</text>
+
+  <g font-family="Consolas, 'JetBrains Mono', 'Courier New', monospace" font-size="14" fill="#7dd3fc">
+    <text x="64" y="228">Solana</text>
+    <text x="146" y="228">Polygon</text>
+    <text x="234" y="228">Base</text>
+    <text x="302" y="228">MegaETH</text>
+    <text x="396" y="228">FastAPI</text>
+    <text x="474" y="228">n8n</text>
+  </g>
+</svg>
