@@ -1,4 +1,4 @@
-<svg width="1200" height="260" viewBox="0 0 1200 260" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Oleg Gulyaev — Python Automation, AI Integrations, Web3 Data">
+<svg width="1200" height="260" viewBox="0 0 1200 260" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Oleg Gulyaev — Python Automation &amp; API Integrations">
   <defs>
     <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#0b1120"/>
@@ -24,17 +24,17 @@
   <rect x="0" y="0" width="8" height="260" fill="url(#accent)"/>
 
   <text x="64" y="108" font-family="Consolas, 'JetBrains Mono', 'Courier New', monospace" font-size="46" font-weight="700" fill="#f8fafc">Oleg Gulyaev</text>
-  <text x="64" y="146" font-family="Consolas, 'JetBrains Mono', 'Courier New', monospace" font-size="21" fill="#9fb3ff">Python Automation &amp; AI Integrations · Web3 Data Research</text>
+  <text x="64" y="146" font-family="Consolas, 'JetBrains Mono', 'Courier New', monospace" font-size="21" fill="#9fb3ff">Python Automation &amp; API Integrations · Web3 Data</text>
 
   <text x="64" y="196" font-family="Consolas, 'JetBrains Mono', 'Courier New', monospace" font-size="17" fill="#38bdf8">$</text>
-  <text x="84" y="196" font-family="Consolas, 'JetBrains Mono', 'Courier New', monospace" font-size="17" fill="#cbd5e1">open_to_remote --roles=web3,ai-automation,vibe-coding</text>
+  <text x="84" y="196" font-family="Consolas, 'JetBrains Mono', 'Courier New', monospace" font-size="17" fill="#cbd5e1">open_to_remote --roles=automation,api-integrations,ai,web3</text>
 
   <g font-family="Consolas, 'JetBrains Mono', 'Courier New', monospace" font-size="14" fill="#7dd3fc">
-    <text x="64" y="228">Solana</text>
-    <text x="146" y="228">Polygon</text>
-    <text x="234" y="228">Base</text>
-    <text x="302" y="228">MegaETH</text>
-    <text x="396" y="228">FastAPI</text>
-    <text x="474" y="228">n8n</text>
+    <text x="64" y="228">FastAPI</text>
+    <text x="142" y="228">Webhooks</text>
+    <text x="238" y="228">Telegram</text>
+    <text x="332" y="228">n8n</text>
+    <text x="382" y="228">Solana</text>
+    <text x="454" y="228">Polygon</text>
   </g>
 </svg>

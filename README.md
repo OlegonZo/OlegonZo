@@ -1,12 +1,12 @@
-![Oleg Gulyaev — Python Automation, AI Integrations, Web3 Data](assets/banner.svg)
+![Oleg Gulyaev — Python Automation & API Integrations](assets/banner.svg)
 
 # Oleg Gulyaev
 
-**Python automation & research tooling · Web3 data**
+**Python automation & API integrations**
 
-I turn manual and repetitive processes into tested, documented, reproducible tools. My current domain focus is crypto market data and Web3 infrastructure, but the engineering work is broader: APIs, data pipelines, AI-assisted workflows, dashboards, alerts, and operational tooling. Hands-on across multiple chains — Solana, Polygon (Polymarket CLOB), Base, and MegaETH testnets — plus centralized-exchange data (MEXC, Hyperliquid, Binance).
+I turn manual and repetitive processes into tested, documented, reproducible tools: webhook services, REST/API integrations, Telegram bots, FastAPI backends, n8n workflows, review queues, and audit trails. I also apply the same engineering discipline to crypto market data and Web3 infrastructure as a research domain.
 
-Based in Russia. Open to **100% remote full-time or part-time roles** in Python automation, AI integrations, data tooling, and Web3 analytics.
+Based in Russia. Open to **100% remote full-time or part-time roles** in Python automation, AI/API integrations, data tooling, and Web3 analytics.
 
 [Resume](RESUME.md) · [LinkedIn](https://www.linkedin.com/in/oleg-gulyaev-939186238/) · [Telegram](https://t.me/Olejo29) · [Email](mailto:gulaevoleg191@gmail.com)
 
