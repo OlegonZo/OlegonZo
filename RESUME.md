@@ -1,29 +1,29 @@
 # Oleg Gulyaev
 
-**Python Automation & AI Integration Builder · Web3 Data Research**
+**Python Automation & API Integrations · AI-assisted Development**
 
-Based in Russia · Russian citizenship · 100% remote · Open to travel  
+Moscow, Russia · UTC+3 · Russian citizenship · 100% remote  
 Full-time or part-time  
 Email: [gulaevoleg191@gmail.com](mailto:gulaevoleg191@gmail.com) · Telegram: [@Olejo29](https://t.me/Olejo29)  
-[GitHub](https://github.com/OlegonZo) · [LinkedIn](https://www.linkedin.com/in/oleg-gulyaev-939186238/)
+[GitHub](https://github.com/OlegonZo) · [LinkedIn](https://www.linkedin.com/in/oleg-gulyaev-939186238/) · [Резюме на русском](RESUME_RU.md)
 
 ## Professional summary
 
 I build tested, documented tools that turn repetitive work and research questions into reproducible workflows. My portfolio covers Python automation, REST/API integrations, FastAPI services, SQLite data pipelines, n8n workflows, operational dashboards, Telegram-ready alerts, and AI-assisted review systems.
 
-My strongest domain knowledge is in crypto markets and Web3 data. I have hands-on experience reading and normalizing on-chain and market data across Solana, Polygon (Polymarket CLOB), Base, and MegaETH testnets, alongside centralized-exchange APIs (MEXC, Hyperliquid, Binance) — always through synthetic, paper, or read-only data, never live order placement. I also build domain-neutral automation samples that demonstrate human-review gates, audit trails, typed boundaries, testing, CI, and safe handling of credentials. AI tools accelerate implementation, while I personally define acceptance criteria, inspect logic, run deterministic checks, and document limitations.
+I am looking for work on workflow automation, API services, and internal tools. My portfolio demonstrates business-rule routing, data normalization, decision logging, and operational interfaces. Crypto/Web3 is an additional research domain. AI tools assist implementation; I define acceptance criteria, inspect logic, run checks, and document limitations. The projects below are portfolio and research work, not claims of commercial employment or measured client ROI.
 
 ## Selected project experience
 
-### AI document review pipeline
+### [AI Document Review Pipeline](https://github.com/OlegonZo/ai-document-review-pipeline)
 
 - Built a FastAPI webhook that accepts synthetic document payloads and separates classification from business rules.
 - Routes low-confidence or invalid cases into a SQLite review queue instead of making an unchecked automated decision.
-- Records the reasons for each decision in an audit trail.
-- Includes an importable n8n workflow, OpenAPI preview, and unit tests.
+- Records each decision and its reasons in SQLite in the same transaction as the document.
+- Includes an importable n8n webhook → API → status-check example, OpenAPI preview, and unit tests. Notification delivery is not implemented.
 - Demo only; no claim of bank, 1C, Telegram, or production LLM integration.
 
-### Exchange monitoring lab
+### [Exchange Monitoring Lab](https://github.com/OlegonZo/exchange-monitoring-lab)
 
 - Built typed Python boundaries around synthetic MEXC and Hyperliquid payloads.
 - Normalized exchange-specific instruments into comparison-only market snapshots.
@@ -31,7 +31,7 @@ My strongest domain knowledge is in crypto markets and Web3 data. I have hands-o
 - Added synthetic fixtures, unit tests, and GitHub Actions CI across Python 3.11–3.13.
 - The public package cannot authenticate or place orders.
 
-### BotOps Control Center
+### [BotOps Control Center](https://github.com/OlegonZo/botops-control-center)
 
 - Built and deployed a responsive operations dashboard for automated research systems.
 - Separated process health, evidence quality, and strategy performance.
@@ -39,14 +39,14 @@ My strongest domain knowledge is in crypto markets and Web3 data. I have hands-o
 - Integrated an optional server-side OpenAI Responses API path with deterministic no-key fallback.
 - All displayed telemetry is explicitly marked as demo data.
 
-### Solana memecoin analyzer
+### [Solana Memecoin Analyzer](https://github.com/OlegonZo/solana-memecoin-analyzer)
 
 - Designed an explainable scoring pipeline using validated data models and synthetic snapshots.
 - Added dust filtering, quality-weighted wallet aggregation, liquidity/volume gates, holder-concentration checks, and authority checks.
 - Produces transparent `WATCH` or `REJECT` explanations and never places orders.
 - Includes a dependency-free CLI, deterministic tests, and CI.
 
-### Polymarket BTC 15-minute research
+### [Polymarket BTC Research](https://github.com/OlegonZo/polymarket-btc-bot)
 
 - Built shadow logging, outcome resolution, filter attribution, and exit-simulation tooling.
 - Found and corrected a resolver defect before recomputing the affected dataset.
@@ -54,11 +54,11 @@ My strongest domain knowledge is in crypto markets and Web3 data. I have hands-o
 - The measured entry stream was negative after market-implied price; documented the version as not deployable.
 - Reported clustering and pseudo-replication limitations instead of presenting row count as independent live trades.
 
-### AI creator scouting prototype
+### [AI Creator Scout](https://github.com/OlegonZo/ld-latte-ai-test)
 
 - Built a Python tool that cleans a supplied creator list, removes irrelevant records, and ranks candidates with transparent criteria.
 - Produces evidence, unknowns, risk flags, and a mandatory human-review status.
-- Generates drafts only; it does not automatically contact creators.
+- Works from a supplied profile list, not Instagram Direct or the Instagram API; it does not automatically contact creators.
 - Includes unit tests and a documented automation design.
 
 ## Technical skills

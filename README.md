@@ -4,11 +4,13 @@
 
 **Python automation & API integrations**
 
-I turn manual and repetitive processes into tested, documented, reproducible tools: webhook services, REST/API integrations, Telegram bots, FastAPI backends, n8n workflows, review queues, and audit trails. I also apply the same engineering discipline to crypto market data and Web3 infrastructure as a research domain.
+I build Python automation tools, webhook services, data-processing pipelines, and operator dashboards. My portfolio focuses on explicit business rules, testable behavior, and clear API boundaries. AI tools assist implementation; the repositories show the code, checks, and limitations.
 
-Based in Russia. Open to **100% remote full-time or part-time roles** in Python automation, AI/API integrations, data tooling, and Web3 analytics.
+Based in **Moscow, Russia (UTC+3)**. Open to **100% remote full-time or part-time roles** in Python automation, AI/API integrations, and data tooling. Web3 research is an additional domain, not a requirement for my next role.
 
-[Resume](RESUME.md) · [LinkedIn](https://www.linkedin.com/in/oleg-gulyaev-939186238/) · [Telegram](https://t.me/Olejo29) · [Email](mailto:gulaevoleg191@gmail.com)
+[Резюме на русском](RESUME_RU.md) · [English resume](RESUME.md) · [Telegram](https://t.me/Olejo29) · [Email](mailto:gulaevoleg191@gmail.com) · [LinkedIn](https://www.linkedin.com/in/oleg-gulyaev-939186238/)
+
+**Для работодателей:** разрабатываю Python-инструменты автоматизации, API-сервисы и интерфейсы мониторинга. Ниже — три основных примера с кодом и границами реализации. Ищу полностью удалённую работу; коммерческий эффект демонстрационным проектам не приписываю.
 
 ## What I build
 
@@ -18,16 +20,27 @@ Based in Russia. Open to **100% remote full-time or part-time roles** in Python 
 - operator dashboards, health monitoring, and incident runbooks
 - reproducible research with tests, CI, synthetic fixtures, and documented limitations
 
-## Selected work
+## Start here: three engineering samples
 
 | Project | Engineering evidence |
 |---|---|
-| [Exchange Monitoring Lab](https://github.com/OlegonZo/exchange-monitoring-lab) | Paper-only Python package for normalizing MEXC and Hyperliquid data, evaluating market regime, and explaining deterministic exits. Typed models, `Decimal` arithmetic, synthetic fixtures, tests, and CI. |
-| [AI Document Review Pipeline](https://github.com/OlegonZo/ai-document-review-pipeline) | FastAPI webhook, explicit business rules, SQLite review queue, immutable audit trail, n8n workflow, and unit tests. Ambiguous cases are routed to a human instead of being silently accepted. |
+| [AI Document Review Pipeline](https://github.com/OlegonZo/ai-document-review-pipeline) | FastAPI webhook → deterministic classification → `ready/review` rules → SQLite records and decision log. Importable n8n routing example and tests. Local demo, no production LLM or Telegram integration. |
 | [BotOps Control Center](https://github.com/OlegonZo/botops-control-center) | Deployed TypeScript/React operations dashboard with typed health endpoints, runbooks, CI, demo telemetry, and an optional server-side OpenAI Responses API integration. |
+| [Exchange Monitoring Lab](https://github.com/OlegonZo/exchange-monitoring-lab) | Paper-only Python package for normalizing MEXC and Hyperliquid data. Typed models, `Decimal` arithmetic, synthetic fixtures, deterministic state transitions, tests, and CI. No exchange authentication or Telegram transport. |
+
+For a quick technical review:
+
+- **Python / workflows:** [API entry point](https://github.com/OlegonZo/ai-document-review-pipeline/blob/main/app/main.py), [decision rules](https://github.com/OlegonZo/ai-document-review-pipeline/blob/main/app/domain.py), [tests](https://github.com/OlegonZo/ai-document-review-pipeline/tree/main/tests).
+- **UI / API:** [BotOps demo](https://botops-control-center-oleg.o38057979.chatgpt.site) and [server-side AI boundary](https://github.com/OlegonZo/botops-control-center/blob/main/app/api/brief/route.ts). Displayed telemetry is synthetic; the no-key path returns a deterministic demo brief.
+- **Data tooling:** [Exchange Monitoring Lab walkthrough](https://github.com/OlegonZo/exchange-monitoring-lab#run-the-demo), runnable without API keys.
+
+## Additional research and prototypes
+
+| Project | Engineering evidence |
+|---|---|
 | [Solana Memecoin Analyzer](https://github.com/OlegonZo/solana-memecoin-analyzer) | Explainable scoring pipeline with validated models, dust filtering, wallet weighting, risk gates, deterministic tests, and synthetic data only. |
 | [Polymarket BTC Research](https://github.com/OlegonZo/polymarket-btc-bot) | Resolver QA, shadow logging, filter attribution, and analysis of 1,485 resolved observations across 181 markets. The measured hypothesis was negative and documented as not deployable. |
-| [AI Creator Scout](https://github.com/OlegonZo/ld-latte-ai-test) | Auditable Python prototype for cleaning a creator list, transparent scoring, risk flags, and mandatory human review before any outreach. No automatic messaging. |
+| [AI Creator Scout](https://github.com/OlegonZo/ld-latte-ai-test) | Python prototype for cleaning a supplied list of public profile URLs, transparent scoring, risk flags, and mandatory human review. Not an Instagram API / Direct integration; no automatic messaging. |
 
 ## How I work with AI
 
