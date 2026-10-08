@@ -1,105 +1,80 @@
 # Oleg Gulyaev
 
-**Python Automation & API Integrations · AI-assisted Development**
+**AI Product Builder · AI-assisted Application Delivery · AI/API Automation**
 
-Moscow, Russia · UTC+3 · Russian citizenship · 100% remote  
-Full-time or part-time  
-Email: [gulaevoleg191@gmail.com](mailto:gulaevoleg191@gmail.com) · Telegram: [@Olejo29](https://t.me/Olejo29)  
-[GitHub](https://github.com/OlegonZo) · [LinkedIn](https://www.linkedin.com/in/oleg-gulyaev-939186238/) · [Резюме на русском](RESUME_RU.md)
+Moscow, Russia (UTC+3) · 100% remote · Full-time, part-time, or project-based work
+
+[GitHub](https://github.com/OlegonZo) · [Telegram: @Olejo29](https://t.me/Olejo29) · [Email](mailto:gulaevoleg191@gmail.com) · [Русское резюме](RESUME_RU.md)
 
 ## Professional summary
 
-I build tested, documented tools that turn repetitive work and research questions into reproducible workflows. My portfolio covers Python automation, REST/API integrations, FastAPI services, SQLite data pipelines, n8n workflows, operational dashboards, Telegram-ready alerts, and AI-assisted review systems.
+I initiate and deliver AI-assisted software projects with Codex and other AI tools. My contributions include product definition, domain research, requirements and acceptance criteria, decomposition of complex problems, test scenarios, defect triage, and organizing independent AI-assisted reviews.
 
-I am looking for work on workflow automation, API services, and internal tools. My portfolio demonstrates business-rule routing, data normalization, decision logging, and operational interfaces. Crypto/Web3 is an additional research domain. AI tools assist implementation; I define acceptance criteria, inspect logic, run checks, and document limitations. The projects below are portfolio and research work, not claims of commercial employment or measured client ROI.
+My portfolio includes two active, unreleased products — AI Fitness Coach PRO and PERVOSLOVO — alongside smaller automation and API prototypes. I do not present AI-generated implementation as manually authored code or claim independent Python engineering proficiency. I validate work through observable product behavior, repeatable tests, structured reports, and evidence from runs.
 
-## Selected project experience
+Interested in **AI Product Builder, AI Automation / Integration Specialist, AI-assisted rapid prototyping, AI product delivery coordination**, and project-based solutions work. I bring **16 years of fitness coaching experience** to FitnessTech/HealthTech projects.
+
+## Featured projects
+
+### PERVOSLOVO — source-grounded Orthodox AI companion
+**Stage: pre-alpha / preparing controlled private testing · Private repository**
+
+**Role:** product initiator and owner; requirements, scenarios, acceptance criteria, AI-assisted delivery, and quality review.
+
+- Coordinating a conversational AI application with persistent conversation history, consent-controlled memory, account authentication, and private web access.
+- Responses use an evidence-binding design: individual assertions must trace to registered, reviewed source excerpts rather than unsupported generated claims.
+- Project stack: Python, DeepSeek/OpenAI LLM APIs, Railway, Clerk, GitHub, and regression/audit tooling.
+- Led a live quality audit covering **90 dialogues / 700 turns**; the team identified **16 categories of defects** in conversation quality and safety and developed systematic remediation.
+- **Limitations:** offline checks do not establish real-model naturalness; final post-fix live acceptance and wider rollout remain pending.
+
+[Private repository](https://github.com/OlegonZo/pervoslovo) — code and technical artifacts available for review by arrangement.
+
+### AI Fitness Coach PRO — video-based exercise analysis
+**Stage: research prototype / pilot validation**
+
+**Role:** product owner and fitness-domain expert; exercise-analysis requirements, test-video collection and review, evaluation of technical alternatives.
+
+- Coordinating a pipeline for squat video analysis: pose extraction, frame processing, movement segmentation, working-set association, and observable movement proxies.
+- Investigating tracking errors caused by occlusions and scene changes, with comparisons of athlete/barbell tracking approaches.
+- Project stack: Python, MediaPipe Pose, PyAV, computer vision, structured diagnostics, and test video datasets.
+- Exploring personal performance baselines and explainable training feedback.
+- **Limitations:** not a production consumer app; broad reliability and coaching claims have not yet been established.
+
+[GitHub repository](https://github.com/OlegonZo/ai-fitness-coach) — the public main-branch README reflects an earlier phase; some experiments remain in local development.
+
+## Additional engineering and automation prototypes
 
 ### [AI Document Review Pipeline](https://github.com/OlegonZo/ai-document-review-pipeline)
-
-- Built a FastAPI webhook that accepts synthetic document payloads and separates classification from business rules.
-- Routes low-confidence or invalid cases into a SQLite review queue instead of making an unchecked automated decision.
-- Records each decision and its reasons in SQLite in the same transaction as the document.
-- Includes an importable n8n webhook → API → status-check example, OpenAPI preview, and unit tests. Notification delivery is not implemented.
-- Demo only; no claim of bank, 1C, Telegram, or production LLM integration.
-
-### [Exchange Monitoring Lab](https://github.com/OlegonZo/exchange-monitoring-lab)
-
-- Built typed Python boundaries around synthetic MEXC and Hyperliquid payloads.
-- Normalized exchange-specific instruments into comparison-only market snapshots.
-- Implemented deterministic paper-position exit states, transparent regime checks, and Telegram-ready formatting.
-- Added synthetic fixtures, unit tests, and GitHub Actions CI across Python 3.11–3.13.
-- The public package cannot authenticate or place orders.
+FastAPI webhook, deterministic business-rule routing, SQLite decision logging, an importable n8n workflow example, and unit tests. Synthetic/demo data only; no customer deployment claim.
 
 ### [BotOps Control Center](https://github.com/OlegonZo/botops-control-center)
+Deployed TypeScript/React operations dashboard with health/brief endpoints, recovery runbooks, and optional server-side OpenAI Responses API. Displayed telemetry is demo-only.
 
-- Built and deployed a responsive operations dashboard for automated research systems.
-- Separated process health, evidence quality, and strategy performance.
-- Added typed server endpoints, incident context, recovery runbooks, request limiting, and CI.
-- Integrated an optional server-side OpenAI Responses API path with deterministic no-key fallback.
-- All displayed telemetry is explicitly marked as demo data.
+### [Exchange Monitoring Lab](https://github.com/OlegonZo/exchange-monitoring-lab)
+Paper-only Python research package for MEXC/Hyperliquid data normalization, deterministic process states, tests, and CI. No live trading.
 
-### [Solana Memecoin Analyzer](https://github.com/OlegonZo/solana-memecoin-analyzer)
+Other research: [AI Creator Scout](https://github.com/OlegonZo/ld-latte-ai-test) · [Solana Memecoin Analyzer](https://github.com/OlegonZo/solana-memecoin-analyzer) · [Polymarket BTC Research](https://github.com/OlegonZo/polymarket-btc-bot).
 
-- Designed an explainable scoring pipeline using validated data models and synthetic snapshots.
-- Added dust filtering, quality-weighted wallet aggregation, liquidity/volume gates, holder-concentration checks, and authority checks.
-- Produces transparent `WATCH` or `REJECT` explanations and never places orders.
-- Includes a dependency-free CLI, deterministic tests, and CI.
+## My AI-assisted delivery process
 
-### [Polymarket BTC Research](https://github.com/OlegonZo/polymarket-btc-bot)
+1. Define the product problem, scope, constraints, and acceptance conditions.
+2. Coordinate implementation through AI coding agents and evaluate candidate approaches.
+3. Validate results with executable scenarios, tests, logs, reproducible artifacts, and independent AI-assisted audits.
+4. Group defects by root cause and request systemic fixes with regression coverage.
+5. Distinguish prototype readiness, offline test success, fresh live-model quality, and production release.
 
-- Built shadow logging, outcome resolution, filter attribution, and exit-simulation tooling.
-- Found and corrected a resolver defect before recomputing the affected dataset.
-- Evaluated 1,485 resolved observations across 181 unique markets.
-- The measured entry stream was negative after market-implied price; documented the version as not deployable.
-- Reported clustering and pseudo-replication limitations instead of presenting row count as independent live trades.
+**Technologies used in AI-assisted projects:** Python, FastAPI, REST APIs, webhooks, SQLite, n8n, TypeScript, React, Git/GitHub, GitHub Actions, pytest/unittest, Playwright, LLM APIs, DeepSeek, OpenAI, MediaPipe, PyAV, Railway, and Clerk. This is a project-stack list, not a claim of independent coding expertise in every technology.
 
-### [AI Creator Scout](https://github.com/OlegonZo/ld-latte-ai-test)
+## Domain experience
 
-- Built a Python tool that cleans a supplied creator list, removes irrelevant records, and ranks candidates with transparent criteria.
-- Produces evidence, unknowns, risk flags, and a mandatory human-review status.
-- Works from a supplied profile list, not Instagram Direct or the Instagram API; it does not automatically contact creators.
-- Includes unit tests and a documented automation design.
-
-## Technical skills
-
-**Python and data:** Python 3, FastAPI, requests, REST APIs, JSON/JSON-RPC, dataclasses, Decimal, SQLite, JSON/JSONL  
-**Automation:** n8n workflow design, Telegram Bot API formatting, webhooks, review queues, audit logs, scheduled monitoring  
-**Frontend and operations:** TypeScript, React, operational dashboards, health metadata, runbooks  
-**Web3 data:** Solana RPC, Helius, DexScreener, Chainlink, Polygon, Base, MegaETH (testnet), Polymarket CLOB, Binance, MEXC, Hyperliquid  
-**Quality:** unittest/pytest, synthetic fixtures, GitHub Actions CI, reproducible research, explicit safety boundaries  
-**AI-assisted workflow:** Codex and other AI tools, OpenAI Responses API, prompt and output review, human-in-the-loop design
-
-## Working approach
-
-- Start with a bounded problem and explicit acceptance criteria.
-- Prefer a small runnable slice over an unverified large system.
-- Keep credentials and private data outside public repositories.
-- Use synthetic, paper, or shadow data when live execution is unnecessary.
-- Treat negative and inconclusive results as valid evidence.
-- Separate engineering reliability from claims about business or market performance.
+**Fitness coach — 16 years.** Training programs, client goals, exercise technique, strength training, and body-composition coaching. I use this subject-matter experience in AI Fitness Coach PRO.
 
 ## Education
 
-**Saratov State Agrarian University**  
-Higher education — Engineer in Land Cadastre
+Saratov State Agrarian University — Higher education, Engineer in Land Cadastre.
 
 ## Languages
 
-- Russian — native.
-- English — technical reading and documentation with translation tools; spoken and written English in active development.
+Russian — native. English — technical reading with translation tools; improving written and spoken communication.
 
-## Target roles
-
-Python Automation Developer · AI Automation / Integration Specialist · Junior Python Developer · Web3 Data / Research Analyst · Vibe Coding / Rapid Prototyping
-
-## Portfolio
-
-- [Exchange Monitoring Lab](https://github.com/OlegonZo/exchange-monitoring-lab)
-- [AI Document Review Pipeline](https://github.com/OlegonZo/ai-document-review-pipeline)
-- [BotOps Control Center](https://github.com/OlegonZo/botops-control-center)
-- [Solana Memecoin Analyzer](https://github.com/OlegonZo/solana-memecoin-analyzer)
-- [Polymarket BTC Research](https://github.com/OlegonZo/polymarket-btc-bot)
-- [AI Creator Scout](https://github.com/OlegonZo/ld-latte-ai-test)
-
-Public repositories are sanitized. Credentials, private wallet lists, raw logs, and live-order access are intentionally excluded.
+*Projects are described at their actual maturity level. I do not claim commercial engineering employment, client ROI, or a production launch where these have not been established.*
